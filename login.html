@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Login / Sign Up</title>
-  <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My Travel Adventures — Home</title>
-<meta name="description" content="My Travel Adventures — travel tips, destination guides, and package ideas to inspire your next trip.">
+  <title>Login — My Travel Adventures</title>
+  <meta name="description" content="Log in to your My Travel Adventures account to access personalized travel recommendations.">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header>
+    <img src="logo.png" alt="Travel website logo" class="logo">
     <h1>My Travel Adventures</h1>
     <nav>
       <a href="index.html">Splash</a>
@@ -22,14 +23,22 @@
   </header>
 
   <section>
-    <h2>Sign Up / Login</h2>
+    <h2>Login</h2>
+
     <form>
-      <label>Username: <input type="text" name="username"></label><br>
-      <label>Password: <input type="password" name="password"></label><br>
-      <button type="submit">Submit</button>
+      <label>Email:
+        <input type="email" required>
+      </label>
+
+      <label>Password:
+        <input type="password" required>
+      </label>
+
+      <button type="submit">Login</button>
     </form>
   </section>
-  
+
   <script src="script.js"></script>
 </body>
 </html>
+
