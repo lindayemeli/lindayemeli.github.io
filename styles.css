@@ -1,22 +1,109 @@
+/* GLOBAL STYLES */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
 }
 
+/* HEADER */
 header {
-  background-color: #4CAF50;
+  background-color: #1e88e5;
   color: white;
-  padding: 1rem;
+  padding: 1.5rem;
   text-align: center;
+}
+
+/* NAVIGATION */
+nav {
+  display: flex;
+  justify-content: center;
+  background: #1565c0;
+  padding: 0.7rem;
 }
 
 nav a {
   margin: 0 1rem;
   color: white;
+  font-weight: bold;
   text-decoration: none;
+  font-size: 18px;
 }
 
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* PAGE SECTIONS */
 section {
   padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* BUTTONS */
+button, .btn {
+  background-color: #1e88e5;
+  border: none;
+  padding: 12px 20px;
+  font-size: 18px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover, .btn:hover {
+  background-color: #1565c0;
+}
+
+/* RESPONSIVE IMAGES */
+img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* CARDS (for destinations page if added later) */
+.card {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+}
+
+/* FORMS */
+form {
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  border: 1px solid #999;
+}
+
+/* FOOTER */
+footer {
+  background: #1e88e5;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 2rem;
+}
+
+/* MOBILE RESPONSIVENESS */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    text-align: center;
+  }
+  nav a {
+    padding: 10px 0;
+    font-size: 20px;
+  }
 }
