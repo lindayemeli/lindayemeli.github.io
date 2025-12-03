@@ -107,3 +107,44 @@ footer {
     font-size: 20px;
   }
 }
+/* Logo */
+.logo {
+  height: 50px;
+}
+
+/* Hero images */
+.hero {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Destination images */
+.destination {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  margin: 1rem 0;
+}
+
+/* Responsive nav */
+nav a {
+  margin: 0 0.8rem;
+  font-size: 1.1rem;
+}
+
+/* Center content class */
+.center {
+  text-align: center;
+}
+
+/* Buttons */
+.button {
+  background-color: #4CAF50;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 8px;
+  font-size: 18px;
+  margin-top: 15px;
+}
